@@ -26,6 +26,7 @@ table{
 }
 th,td {
     border: 4 px solid #733702;
+    padding: 4px;
 
 }
 th{
