@@ -1,3 +1,45 @@
+/*Colors*/
 body{
-    background: blue;
+    background: #731702;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Nav*/
+a{
+    text-decoration: none; /*no underline*/ 
+    background: #D9A404;
+    color: white;
+    padding: 2px;
+    border-radius: 3px;
+
+}
+a:hover{
+background: black;
+}
+/*images*/
+img {
+    border: 5px solid black;
+    border-radius: 2px;
+}
+/*tables*/
+table{
+    border-collapse: collapse;
+}
+th,td {
+    border: 4 px solid #733702;
+
+}
+th{
+background: #D95204;
+}
+td{
+    background: white;
+}
+/*fonts*/
+h1 {
+    color: #F28705;
+    font-style: italic;
+}
+h2 { 
+    color: #F28705;
+    font-style: italic;
 }
