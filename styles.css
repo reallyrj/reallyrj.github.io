@@ -57,3 +57,6 @@ strong {
 #big {
   font-size: 16px;  
 }
+#content {
+    background-color: aliceblue;
+}
