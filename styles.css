@@ -49,7 +49,7 @@ h3{
     font-style: italic;
 }
 .special{
-    color: red;
+    color: black;
 }
 strong {
     color:pink;
@@ -58,5 +58,5 @@ strong {
   font-size: 16px;  
 }
 #content {
-    background-color: aliceblue;
+    background-color: white;
 }
