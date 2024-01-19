@@ -50,7 +50,7 @@ list-style-type: none;
 }
 /*larger resolutions*/
 @media(min-width:900px){
-    #main-nav ul,#main-nav li .flex-container,#main-nav a{
+    #main-nav ul,#main-nav li .flex-container,#main-nav a,#link-section {
         display: flex;
     }
     #main-nav li,.content-section,#main-nav a,#link-section{
