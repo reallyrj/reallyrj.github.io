@@ -46,3 +46,14 @@ display: inline-block;
 #main-header h1 {
     text-align: center;
 }
+
+/*larger resolutions*/
+@media(min-width:900px){
+    #main-nav ul, .flex-container{
+        display: flex;
+    }
+    #main-nav li,.content-section{
+        flex:1;
+    }
+}
+
