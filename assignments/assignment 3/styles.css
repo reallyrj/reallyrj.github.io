@@ -48,6 +48,9 @@ list-style-type: none;
 #link-section{
     text-align: left;
 }
+#bottom-content{
+    background: skyblue;
+}
 /*larger resolutions*/
 @media(min-width:900px){
     #main-nav ul,#main-nav li .flex-container,#main-nav a {
@@ -57,4 +60,5 @@ list-style-type: none;
         flex: 1;
     }
 }
+
 
