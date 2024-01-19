@@ -30,7 +30,6 @@ body {
 /*main nav*/
 #main-nav li{
 list-style-type: none;
-display: inline-block;
 }
 #main-nav a{
     text-decoration: none;
