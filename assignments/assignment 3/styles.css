@@ -53,7 +53,7 @@ list-style-type: none;
     #main-nav ul,#main-nav li .flex-container,#main-nav a {
         display: flex;
     }
-    #main-nav li,.content-section,#main-nav a, #link-section,.content-section{
+    #main-nav li,.content-section,#main-nav a, #link-section{
         flex:1;
     }
 }
