@@ -45,13 +45,15 @@ list-style-type: none;
 #main-header h1 {
     text-align: center;
 }
-
+#link-section{
+    text-align: left;
+}
 /*larger resolutions*/
 @media(min-width:900px){
     #main-nav ul,#main-nav li .flex-container,#main-nav a{
         display: flex;
     }
-    #main-nav li,.content-section,#main-nav a{
+    #main-nav li,.content-section,#main-nav a,#link-section{
         flex:1;
     }
 }
