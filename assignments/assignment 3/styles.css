@@ -49,10 +49,10 @@ display: inline-block;
 
 /*larger resolutions*/
 @media(min-width:900px){
-    #main-nav ul, .flex-container{
+    #main-nav ul, .flex-container,#main-nav a{
         display: flex;
     }
-    #main-nav li,.content-section{
+    #main-nav li,.content-section,#main-nav a{
         flex:1;
     }
 }
