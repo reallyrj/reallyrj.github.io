@@ -57,7 +57,7 @@ list-style-type: none;
         display: flex;
     }
     #main-nav li,.content-section,#main-nav a, #link-section, #bottom-content{
-        flex: 1;
+        flex: 2;
     }
 }
 
