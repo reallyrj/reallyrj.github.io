@@ -48,10 +48,9 @@ list-style-type: none;
 #link-section{
     text-align: left;
 }
-#bottom-content h2{
+#bottom-content{
     background: skyblue;
     text-align: center;
-
 }
 /*larger resolutions*/
 @media(min-width:900px){
