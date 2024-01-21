@@ -21,7 +21,7 @@ body {
     padding: 5px;
     
 }
-.content-section{
+#content-section{
     background: lightgoldenrodyellow;
     padding: 5px;
     border-radius: 5px;
@@ -48,17 +48,17 @@ list-style-type: none;
 #link-section{
     text-align: left;
 }
-.bottom-content h2{
+#bottom-content h2{
     background: skyblue;
     text-align: center;
 
 }
 /*larger resolutions*/
 @media(min-width:900px){
-    #main-nav ul,#main-nav li .flex-container,#main-nav a,.content-section,#bottom-content{
+    #main-nav ul,#main-nav li #flex-container,#main-nav a,#content-section,#bottom-content{
         display: flex;
     }
-    #main-nav li,.content-section,#main-nav a, #link-section, #bottom-content{
+    #main-nav li,#content-section,#main-nav a, #link-section, #bottom-content{
         flex: 2;
     }
 }
