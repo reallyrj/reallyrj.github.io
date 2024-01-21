@@ -48,7 +48,7 @@ list-style-type: none;
 #link-section{
     text-align: left;
 }
-#bottom-content h2{
+.bottom-content h2{
     background: skyblue;
     text-align: center;
 
