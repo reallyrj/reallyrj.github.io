@@ -69,6 +69,7 @@ strong {
     color: white;
     padding: 5px;
     border-radius: 5px;
+
 }
 /*larger resolutions*/
 @media(min-width: 900px){
