@@ -65,7 +65,10 @@ strong {
     text-align: center;
 }
 #Assignments{
-    background: blue ;
+    background: #11425A;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
 }
 /*larger resolutions*/
 @media(min-width: 900px){
