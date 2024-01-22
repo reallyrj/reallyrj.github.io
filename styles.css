@@ -60,3 +60,12 @@ strong {
 #content {
     background-color: white;
 }
+/*larger resolutions*/
+@media(min-width:900px){
+    #layout{
+        display: flex;
+    }
+   #layout{
+        flex: 1;
+    }
+}
