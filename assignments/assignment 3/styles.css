@@ -54,10 +54,10 @@ list-style-type: none;
 }
 /*larger resolutions*/
 @media(min-width:900px){
-    #main-nav ul,#main-nav li #flex-container,#main-nav a,#bottom-content{
+    #main-nav ul,#main-nav li #flex-container,#main-nav a,#bottom-content,#content-section{
         display: flex;
     }
-    #main-nav li,#content-section,#main-nav a, #link-section, #bottom-content{
+    #main-nav li,#main-nav a, #link-section, #bottom-content{
         flex: 1;
     }
 }
