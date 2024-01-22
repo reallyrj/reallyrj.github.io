@@ -73,6 +73,7 @@ strong {
 }
 /*larger resolutions*/
 @media(min-width: 900px){
-
+#Assignments{display: flex;}
+#ASsignments{flex: 1;}
 
 }
