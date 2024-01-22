@@ -37,11 +37,11 @@ td{
 }
 /*fonts*/
 h1 {
-    color: #595758;
+    color: #11425A;
     font-style: italic;
 }
 h2 { 
-    color: #595758;
+    color: #11425A;
     font-style: italic;
 }
 h3{
@@ -58,14 +58,14 @@ strong {
   font-size: 16px;  
 }
 #content {
-    background-color: white;
+    background-color: black;
 }
 /*Assignment 4*/
 #center{
     text-align: center;
 }
 #Assignments{
-    color: white;
+    font-col: white;
     padding: 5px;
     border-radius: 5px;
 
