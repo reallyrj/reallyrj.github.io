@@ -64,10 +64,11 @@ strong {
 #center{
     text-align: center;
 }
-#Assingments{
+#Assignments{
     background: blue ;
 }
 /*larger resolutions*/
-@media(min-width 900px){
+@media(min-width: 900px){
+
 
 }
