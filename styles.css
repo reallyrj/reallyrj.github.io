@@ -60,6 +60,10 @@ strong {
 #content {
     background-color: white;
 }
+/*Assignment 4*/
+#center{
+    text-align: center;
+}
 /*larger resolutions*/
 @media(min-width:900px){
     #layout{
