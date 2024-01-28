@@ -68,18 +68,6 @@ text-decoration: none;
     border-bottom: 1px solid #000000;
     text-decoration: none;
 }
-#glance{
-
-}
-#underglance{
-
-}
-#ugimage{
-
-}
-#group{
-
-}
 #glancetitle{
 font-size: small;
 color: gray;
@@ -91,7 +79,4 @@ color: gray;
 #glancecontent b{
     font-size: large;
     color: #73000A;
-}
-#glancelink{
-
 }
