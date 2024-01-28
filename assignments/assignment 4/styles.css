@@ -12,12 +12,10 @@
     font-size: large;
     color: #73000A;
 }
-#red{
+.red{
     color: #73000A;
 }
 #highlightlist{
-border-top: 1px solid #000000;
-border-bottom: 1px solid #000000;
 text-decoration: none;
 }
 #highlightlist article{
