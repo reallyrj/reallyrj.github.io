@@ -40,4 +40,9 @@ text-decoration: none;
     font-size: larger;
     color: #73000A;
 }
+#columof2 aside{
+    display: block;
+    border-bottom: 1px solid #000000;
+    text-decoration: none;
+}
 
