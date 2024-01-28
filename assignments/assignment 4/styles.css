@@ -147,6 +147,11 @@ color: gray;
     text-underline-position: below;
     color: #ffffff;
 }
+#column ul{
+    list-style-type: none;
+    color: #ffffff;
+    text-decoration: none;
+}
 #hamburgermenu{
     position: fixed;
     left: 0;
