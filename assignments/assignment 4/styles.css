@@ -133,10 +133,12 @@ color: gray;
 }
 #column{
     background-color: #73000A;
+    color: #ffffff;
 
 }
 #column h1{
     text-underline-position: below;
+    color: #ffffff;
 }
 #hamburgermenu{
     position: fixed;
