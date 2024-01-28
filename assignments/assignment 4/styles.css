@@ -119,7 +119,6 @@ color: gray;
     border-bottom: 1px solid #000000;
     border-left: 1px solid #000000;
     border-right: 1px solid #000000;
-    display: inline;
 }
 
 #footer a,ul{
@@ -132,3 +131,4 @@ color: gray;
 #footer a:hover {
     color: #73000A;
 }
+
