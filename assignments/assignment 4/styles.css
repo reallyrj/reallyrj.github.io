@@ -1,10 +1,10 @@
 #firsthead{
-    font-size: 50px;
+    font-size: 10px;
     font-weight: bold;
     text-align: left;
     color: #ffffff;
     background-color: #73000A;
-    padding: 10px;
+    padding: 5px;
     margin: 0px;
     border: 2px solid #000000;
 }
@@ -22,6 +22,7 @@ text-decoration: none;
     display: block;
     border-top: 1px solid #000000;
     border-bottom: 1px solid #000000;
+    text-decoration: none;
 }
 #container{
     display: flex;
