@@ -15,12 +15,24 @@
 #red{
     color: #73000A;
 }
-#columof5{
+#highlightlist{
 border-top: 1px solid #000000;
 border-bottom: 1px solid #000000;
+}
+#container{
+    display: flex;
 }
 #columof5 a{
     display: block;
     text-decoration: none;
     color: inherit;
 }
+#columof2{
+    border-left: 1px solid #73000A;
+}
+#b{
+    font-weight: bold;
+    font-size: larger;
+    color: #73000A;
+}
+
