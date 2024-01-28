@@ -131,4 +131,11 @@ color: gray;
 #footer a:hover {
     color: #73000A;
 }
+#colum{
+    background-color: #73000A;
+
+}
+#colum h1{
+    text-underline-position: below;
+}
 
