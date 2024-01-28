@@ -136,6 +136,13 @@ color: gray;
     color: #ffffff;
 
 }
+#column a{
+    text-decoration: none;
+    color: white;
+}
+#column a:hover{
+    color: pink;
+}
 #column h1{
     text-underline-position: below;
     color: #ffffff;
