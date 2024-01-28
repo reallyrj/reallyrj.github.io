@@ -44,6 +44,7 @@ text-decoration: none;
 #DepartmentHI{
     font-size: large;
     color: #73000A;
+    border-top: 1px #000000;
 }
 #text h3{
     font-size: medium;
@@ -90,8 +91,22 @@ color: gray;
 #group img{
   align-items: left;
 }
-#a1,#a2,#a3,#a4,#a5{
-    border-top: 1px solid #000000;
+#a1{
     border-bottom: 1px solid #000000;
-    
+}
+#a2{
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+}
+#a3{
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+}
+#a4{
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
+}
+#a5{
+    border-bottom: 1px solid #000000;
+    border-top: 1px solid #000000;
 }
