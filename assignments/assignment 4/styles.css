@@ -121,13 +121,19 @@ color: gray;
     border-right: 1px solid #000000;
 }
 
-#footer a,ul{
+#footer a{
     text-decoration: none;
     color: inherit;
     display: inline;
     list-style-type: none;
 }
-
+#footer ul{
+    list-style-type: none;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: right;
+    display: inline;
+}
 #footer a:hover {
     color: #73000A;
 }
