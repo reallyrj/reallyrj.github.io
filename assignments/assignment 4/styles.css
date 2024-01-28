@@ -164,3 +164,6 @@ color: gray;
     
 }
 
+#columnof2,#columnof5{
+    flex: 2;
+}
