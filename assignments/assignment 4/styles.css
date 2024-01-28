@@ -1,0 +1,26 @@
+#firsthead{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    background-color: #73000A;
+    padding: 20px;
+    margin: 0px;
+    border: 2px solid #000000;
+}
+#branding h2{
+    font-size: large;
+    color: #73000A;
+}
+#red{
+    color: #73000A;
+}
+#columof5{
+border-top: 1px solid #000000;
+border-bottom: 1px solid #000000;
+}
+#columof5 a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
