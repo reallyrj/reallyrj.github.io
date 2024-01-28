@@ -68,7 +68,9 @@ text-decoration: none;
     border-bottom: 1px solid #000000;
     text-decoration: none;
 }
+#glance{
 
+}
 #underglance{
 
 }
@@ -79,13 +81,16 @@ text-decoration: none;
 
 }
 #glancetitle{
-
+font-size: small;
+color: gray;
 }
 #glancehead{
-
+    font-size: large;
+    color: #73000A;
 }
-#glancetext{
-
+#glancecontent b{
+    font-size: large;
+    color: #73000A;
 }
 #glancelink{
 
