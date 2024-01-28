@@ -39,7 +39,15 @@ text-decoration: none;
     display: block;
     text-decoration: none;
     color: inherit;
-    
+
+}
+#columof5 h2{
+    font-size: large;
+    color: #73000A;
+}
+#columof5 h3{
+    font-size: medium;
+    color: #73000A;
 }
 #columof2{
     border-left: 1px solid #73000A;
