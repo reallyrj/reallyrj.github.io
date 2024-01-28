@@ -33,7 +33,7 @@ text-decoration: none;
     text-decoration: none;
 }
 #container{
-    display: flex;
+    display: flex 1;
 }
 #columof5 a{
     display: block;
