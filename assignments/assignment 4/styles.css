@@ -90,3 +90,8 @@ color: gray;
 #group img{
   align-items: left;
 }
+#a1,#a2,#a3,#a4,#a5{
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    
+}
