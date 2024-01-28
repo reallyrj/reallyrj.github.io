@@ -48,6 +48,12 @@ text-decoration: none;
 #text h3{
     font-size: medium;
     color: #73000A;
+    text-decoration: none;
+}
+#text p{
+    font-size: small;
+    text-decoration: none;
+    color: black;
 }
 #columof2{
     border-left: 1px solid #73000A;
