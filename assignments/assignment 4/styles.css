@@ -1,9 +1,11 @@
 #tiptop{
     font-size: 20px;
- font-weight: bold;
- color: #ffffff;
- background-color: black;
- border: 2px solid #000000;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 2px;
+    border: 2px solid #000000;
 }
 #firsthead{
     font-size: 10px;
