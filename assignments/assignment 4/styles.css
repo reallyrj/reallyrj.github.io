@@ -80,3 +80,9 @@ color: gray;
     font-size: large;
     color: #73000A;
 }
+#group{
+    border-left: 2px #73000A;
+    border-right: 1px solid black;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid black;
+}
