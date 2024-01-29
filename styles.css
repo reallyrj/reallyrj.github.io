@@ -69,10 +69,17 @@ strong {
     padding: 5px;
     border-radius: 5px;
 
+
+}
+#Projects{
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
 }
 /*larger resolutions*/
 @media(min-width: 900px){
 #Assignments{display: flex;}
-#ASsignments{flex: 1;}
-
+#Assignments{flex: 1;}
+#Projects{display: flex;}
+#Projects{flex: 1;}
 }
