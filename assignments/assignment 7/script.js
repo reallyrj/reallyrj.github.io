@@ -1,5 +1,6 @@
-function alert(){
-    alert("Hello World");
-}
-window.onload=alert;
-
+window.onload=()=>{
+const starsbutton=document.getElementById("addstars");
+starsbutton.onclick=()=>{
+    alert("Stars added");
+};
+};
