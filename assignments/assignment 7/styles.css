@@ -16,3 +16,11 @@ color: #6DA6AF;
 #stars{
     background-color: #6DA6AF;
 }
+@media(min-width:900px){
+    #flex{
+        display: flex;
+    }
+    #changeimage,#slider,#stars{
+        flex: 1;
+    }
+}
