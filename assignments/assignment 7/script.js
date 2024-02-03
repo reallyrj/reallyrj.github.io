@@ -7,11 +7,11 @@ window.onload=()=>{
     };
 };
 window.onload = () => {
-    const imageSlider = document.getElementById('imageSlider');
+    const imageslider = document.getElementById('imageslider');
     const rotateImage = document.getElementById('rotateimage');
 
-    imageSlider.oninput = () => {
-        const rotation = imageSlider.value;
+    imageslider.oninput = () => {
+        const rotation = imageslider.value;
         rotateImage.style.transform = `rotate(${rotation}deg)`;
     };
 };
