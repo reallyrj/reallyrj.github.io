@@ -21,6 +21,6 @@ starsbutton.onclick=()=>{
     alert("Stars added");
     const shape=document.createElement("div");
     shape.className="star";
-    document.body.appendChild(shape);
+    document.body.appendChild(star);
     };
 };
