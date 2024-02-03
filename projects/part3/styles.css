@@ -2,6 +2,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
   }
+  #center {
+    text-align: center;
+  }
   
   #Artist {
     background-color: white;
@@ -89,9 +92,7 @@ body {
       justify-content: space-evenly;
     }
   }
-  #center{
-    text-align: center;
-}
+
 #Topics{
     background: white;
     padding: 5px;
