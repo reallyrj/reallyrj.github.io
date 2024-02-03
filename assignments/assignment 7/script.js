@@ -6,8 +6,14 @@ window.onload=()=>{
         image="images/200x200(2).gif";
     };
 };
-window.onload=()=>{
+window.onload = () => {
+    const imageSlider = document.getElementById('imageSlider');
+    const rotateImage = document.getElementById('rotateimage');
 
+    imageSlider.oninput = () => {
+        const rotation = imageSlider.value;
+        rotateImage.style.transform = `rotate(${rotation}deg)`;
+    };
 };
 window.onload=()=>{
 const starsbutton=document.getElementById("addstars");
