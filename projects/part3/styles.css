@@ -3,17 +3,24 @@ body {
     font-family: Arial, Helvetica, sans-serif;
   }
   
-  #page1 {
+  #Artist {
     background-color: white;
   }
   
-  #page2 {
+  #Drops {
     background-color: white;
   }
   
-  #page3 {
+  #Favorites {
     background-color: white;
   }
+  #Home{
+    background-color: white;
+  }
+  #News{
+    background-color: white;
+  }
+
   
   h1 {
     text-align: center;
