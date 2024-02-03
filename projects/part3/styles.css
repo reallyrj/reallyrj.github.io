@@ -106,8 +106,5 @@ body {
 }
 /*larger resolutions*/
 @media(min-width: 900px){
-#Topics{display: flex;}
-#Topics{flex: 1;}
-#Projects{display: flex;}
-#Projects{flex: 1;}
+#Topics,#Upcoming{display: flex;flex: 1;}
 }
