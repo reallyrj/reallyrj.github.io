@@ -19,5 +19,8 @@ window.onload=()=>{
 const starsbutton=document.getElementById("addstars");
 starsbutton.onclick=()=>{
     alert("Stars added");
+    const shape=document.createElement("div");
+    shape.className="star";
+    document.body.appendChild(shape);
     };
 };
