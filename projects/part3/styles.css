@@ -89,3 +89,25 @@ body {
       justify-content: space-evenly;
     }
   }
+  #center{
+    text-align: center;
+}
+#Topics{
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+
+
+}
+#Projects{
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+/*larger resolutions*/
+@media(min-width: 900px){
+#Topics{display: flex;}
+#Topics{flex: 1;}
+#Projects{display: flex;}
+#Projects{flex: 1;}
+}
