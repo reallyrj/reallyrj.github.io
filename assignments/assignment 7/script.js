@@ -1,8 +1,9 @@
 window.onload=()=>{
     const imagebuttom=document.getElementById("changeimage");
+    const image=document.getElementById("switchimage");
     imagebuttom.onclick=()=>{
-        alert("Image changed");
-        image.src='images/200x200(2).gif';
+        alert("image changed");
+        image="images/200x200(2).gif";
     };
 };
 window.onload=()=>{
