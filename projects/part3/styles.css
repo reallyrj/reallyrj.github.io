@@ -2,10 +2,18 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
   }
-  #center {
+#center {
     text-align: center;
   }
-  
+  h1{
+text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
   #Artist {
     background-color: white;
   }
