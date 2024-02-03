@@ -7,6 +7,7 @@
 #changeimage{
 background-color: #F2F0D6;
 color: #6DA6AF;
+image-orientation: center;
 }
 #slider{
 background-color: #F2F0D6;
@@ -21,6 +22,6 @@ color: #6DA6AF;
         display: flex;
     }
     #changeimage,#slider,#stars{
-        flex: 1;
+        flex: 2;
     }
 }
