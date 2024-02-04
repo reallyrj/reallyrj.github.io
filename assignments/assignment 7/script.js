@@ -22,7 +22,7 @@ window.onload = () => {
 const starClicked = () => {
     const stars = document.getElementById("stars");
     const star=document.createElement("img");
-    star.src="images/star.jpg";
+    star.src="images/stars.png";
     stars.appendChild(star);
-    
+
 }
