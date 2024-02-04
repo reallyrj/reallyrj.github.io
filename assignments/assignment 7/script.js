@@ -24,4 +24,5 @@ const starClicked = () => {
     const star=document.createElement("img");
     star.src="images/star.jpg";
     stars.appendChild(star);
+    
 }
