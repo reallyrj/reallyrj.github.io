@@ -22,6 +22,6 @@ window.onload = () => {
 const starClicked = () => {
     const stars = document.getElementById("stars");
     const star=document.createElement("img");
-    star.src="images/star.png";
+    star.src="images/star.jpg";
     stars.appendChild(star);
 }
