@@ -15,12 +15,13 @@ window.onload = () => {
         rotateImage.style.transform = `rotate(${rotation}deg)`;
     };
 };
-window.onload=()=>{
-const starsbutton=document.getElementById("addstars");
-starsbutton.onclick=()=>{
-    alert("Stars added");
-    const shape=document.createElement("div");
-    shape.className="star";
-    document.body.appendChild(star);
-    };
+/*star*/
+window.onload = () => {
+    const star = document.getElementById("addstars").onclick=starClicked;
 };
+const starClicked = () => {
+    const stars = document.getElementById("stars");
+    const star=document.createElement("img");
+    star.src="images/star.png";
+    stars.appendChild(star);
+}
