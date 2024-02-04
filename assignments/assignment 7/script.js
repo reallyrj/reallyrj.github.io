@@ -6,9 +6,10 @@ window.onload = () => {
 };
 /*image*/
 const imagechange = () => {
-    const image = document.getElementById("clickimage");
-    image.src = "images/200x200(2).gif";
-
+    const images = document.getElementById("clickimage");
+    const image=document.createElement("img");
+    image.src="images/200x200(2).gif";
+    images.appendChild(image);
 }
 /*star*/
 const starClicked = () => {
@@ -24,14 +25,5 @@ window.onload=()=>{
     imagebuttom.onclick=()=>{
         alert("image changed");
         image="images/200x200(2).gif";
-    };
-};
-window.onload = () => {
-    const imageslider = document.getElementById('imageslider');
-    const rotateImage = document.getElementById('rotateimage');
-
-    imageslider.oninput = () => {
-        const rotation = imageslider.value;
-        rotateImage.style.transform = `rotate(${rotation}deg)`;
     };
 };

@@ -4,7 +4,7 @@
 #flex{
     display: flex;
 }
-#changeimage{
+#clickimage{
 background-color: #F2F0D6;
 color: #6DA6AF;
 }
@@ -19,27 +19,6 @@ color: #6DA6AF;
     width: 100px;
     height: 100px;
     background-color: red;
-}
-.star {
-    position: relative;
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 100px solid red;
-    top: 50px;
-}
-
-.star:after {
-    position: absolute;
-    content: "";
-    top: 30px;
-    left: -50px;
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 100px solid red;
 }
 @media(min-width:900px){
     #flex{
