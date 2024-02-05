@@ -78,7 +78,7 @@ strong {
 }
 /*larger resolutions*/
 @media(min-width: 900px){
-#Assignments{display: flex; justify-content: space-evenly;}
+#Assignments{display: flex;}
 #Assignments{flex: 1;}
 #Projects{display: flex;}
 #Projects{flex: 1;}
