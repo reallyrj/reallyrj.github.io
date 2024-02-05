@@ -22,6 +22,7 @@ color: #6DA6AF;
 }
 #flex-container,#slider,#clickimage,#stars{
     display: block;
+    justify-content: space-evenly;
 
     flex: 3;
 }
