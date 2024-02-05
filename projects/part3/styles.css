@@ -123,12 +123,17 @@ text-align: center;
 
 
 }
-#Projects{
-    background: white;
-    padding: 5px;
-    border-radius: 5px;
-}
+
 /*larger resolutions*/
 @media(min-width: 900px){
-#Topics,#Upcoming{display: flex;flex: 1;}
+#Upcoming,#MusicVid,#Album,#Thisweek{
+  display: block;
+  justify-content: space-evenly;
+}
+#favs,#Topics,#playlist{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
 }
