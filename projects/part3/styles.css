@@ -133,7 +133,24 @@ text-align: center;
 #favs,#Topics,#playlist{
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
+  flex-direction: column;
 }
-
+.Topics1{
+  display:flex;
+}
+.Topics2{
+  display:flex;
+}
+.MusicVid{
+  display:flex;
+}
+.Albums{
+  display:flex;
+}
+.ThisWeek{
+  display:flex;
+}
+.one{
+  flex:1;
+}
 }
