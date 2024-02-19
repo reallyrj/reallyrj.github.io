@@ -1,48 +1,95 @@
 window.onload = () => {
-    document.getElementById('start').onclick=bounce;
-    document.getElementById('yoga');
+    document.getElementById('start').onclick=toggleButton;
+    document.getElementById('yoga').onclick=define;
 };
-const bounce = (e) => {
-e.preventDefault();
-const a = document.querySelector('a');
-a.innerHTML = 'Stop';
- const ball=document.getElementById('ball')
- const container=document.getElementById('rectangle');
-    let x = 0;
-    let y = 0;
-    let direction = -1;
-    let speed = 5;
-    movement=setInterval(() => {
-        if (direction !== 0) { // Prevent movement when stopped
-          y += direction * speed;
+// Function to move the image down
+const moveImageDown = () => {
+    const rectangle = document.getElementById('rectangle');
+    const movingImage = document.getElementById('ball');
     
-          // Check for bottom boundary collision
-          if (y + ball.offsetHeight >= container.offsetHeight) {
-            y = container.offsetHeight - ball.offsetHeight; // Prevent ball from going below
-            direction = 1; // Bounce up
-          } else if (y <= 0) { // Check for top boundary collision
-            y = 0;
-            direction = 1; // Bounce down
-          }
-           // Update ball's position on screen
-          ball.style.top = y + 'px';
-        }
-      }, 20); // Update position every 20 milliseconds
-    };
+    // Get the current position of the image
+    let currentPosition = parseInt(movingImage.style.top) || 0;
+    
+    // Update the position to move it down
+    currentPosition += 10; // Adjust the value as needed
+    
+    // Set the new position
+    movingImage.style.top = currentPosition + 'px';
+};
 
+const toggleButton = (e) => {
+    e.preventDefault();
+    let intervalId;
+    const reset=()=>{
+        currentPosition=0;
+    }
 
-const define = () => {
-    for(let i=0; i<8; i++){
-    document.getElementById('yogapic1').onclick = () => {
-        const defDiv = document.getElementById('def');
-        defDiv.innerHTML = 'Text created when yogapic1 is clicked';
-    };
-    document.getElementById('yogapic2').onclick
-    document.getElementById('yogapic3').onclick
-    document.getElementById('yogapic4').onclick
-    document.getElementById('yogapic5').onclick
-    document.getElementById('yogapic6').onclick
-    document.getElementById('yogapic7').onclick
-    document.getElementById('yogapic8').onclick
+    const startButton = document.getElementById('start');
+     if (startButton.innerHTML === 'Start') {
+        startButton.innerHTML = 'Stop';
+        setInterval(moveImageDown, 1000);
+    } else {
+        startButton.innerHTML = 'Start';
+        clearInterval(reset);
     }
 };
+
+ const define = () => {
+    const p1=document.getElementById('p1');
+    const p2=document.getElementById('p2');
+    const p3=document.getElementById('p3');
+    const p4=document.getElementById('p4');
+    const p5=document.getElementById('p5');
+    const p6=document.getElementById('p6');
+    const p7=document.getElementById('p7');
+    const p8=document.getElementById('p8');
+
+    for(i=0; i<1; i++){
+    document.getElementById('yogapic1').onclick = () => {
+        const defDiv = document.getElementById('def');
+        p1.innerHTML = 'Text created when yogapic1 is clicked';
+        i++;
+    };};
+    for(i=0; i<1; i++){
+        document.getElementById('yogapic2').onclick = () => {
+            const defDiv = document.getElementById('def');
+            p2.innerHTML = 'Text created when yogapic2 is clicked';
+            i++;
+        };};
+    for(i=0; i<1; i++){
+            document.getElementById('yogapic3').onclick = () => {
+                const defDiv = document.getElementById('def');
+                p3.innerHTML = 'Text created when yogapic3 is clicked';
+                i++;
+            };};
+            for(i=0; i<1; i++){
+                document.getElementById('yogapic4').onclick = () => {
+                    const defDiv = document.getElementById('def');
+                    p4.innerHTML = 'Text created when yogapic4 is clicked';
+                    i++;
+                };};
+                for(i=0; i<1; i++){
+                    document.getElementById('yogapic5').onclick = () => {
+                        const defDiv = document.getElementById('def');
+                       p5.innerHTML = 'Text created when yogapic5 is clicked';
+                        i++;
+                    };};
+                    for(i=0; i<1; i++){
+                        document.getElementById('yogapic6').onclick = () => {
+                            const defDiv = document.getElementById('def');
+                            p6.innerHTML = 'Text created when yogapic6 is clicked';
+                            i++;
+                        };};
+                        for(i=0; i<1; i++){
+                            document.getElementById('yogapic7').onclick = () => {
+                                const defDiv = document.getElementById('def');
+                                p7.innerHTML = 'Text created when yogapic7 is clicked';
+                                i++;
+                            };};
+                            for(i=0; i<1; i++){
+                                document.getElementById('yogapic1').onclick = () => {
+                                    const defDiv = document.getElementById('def');
+                                   p8.innerHTML = 'Text created when yogapic8 is clicked';
+                                    i++;
+                                };};
+    };
