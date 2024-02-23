@@ -65,6 +65,7 @@ text-align: center;
   
   #main-nav ul {
     background-color: red;
+    color: black;
   }
   
   #nav-items li {
@@ -84,7 +85,7 @@ text-align: center;
   #hamburger div {
     width: 25px;
     height: 3px;
-    background-color: black;
+    background-color: red;
     margin: 6px 0;
   }
   
@@ -123,6 +124,11 @@ text-align: center;
 
 
 }
+#Artist,#Home,#Drops,#Favorites,#News{
+  background-color: black;
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /*larger resolutions*/
 @media(min-width: 900px){
@@ -139,18 +145,33 @@ text-align: center;
   display:flex;
 }
 .Topics2{
-  display:flex;
+  display: flex;
 }
 .MusicVid{
-  display:flex;
+  display: flex;
 }
 .Albums{
-  display:flex;
+  display: flex;
 }
 .ThisWeek{
-  display:flex;
+  display: flex;
+}
+.favs{
+  display: flex;
+}
+.Upcoming{
+  display: flex;
+}
+.playlist{
+  display: flex;
+}
+.newski{
+  display: flex;
 }
 .one{
   flex:1;
+}
+.two{
+  flex:2;
 }
 }
