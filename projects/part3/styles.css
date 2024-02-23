@@ -15,33 +15,19 @@ text-align: center;
   h3{
     text-align: center;
   }
-  #Artist {
-    background-color: white;
-  }
+  
   #Artist h1,h2,h3{
     text-align: center;
-  }
-  
-  #Drops {
-    background-color: white;
   }
   #Drops h1,h2,h3{
     text-align: center;
   }
-  #Favorites {
-    background-color: white;
-  }
   #Favorites h1,h2,h3{
     text-align: center;
   }
-  #Home{
-    background-color: white;
-  }
+
   #Home h1,h2,h3{
     text-align: center;
-  }
-  #News{
-    background-color: white;
   }
   #News h1,h2,h3{
     text-align: center;
