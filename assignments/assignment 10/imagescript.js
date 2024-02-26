@@ -6,12 +6,14 @@ let images = [
     { src: "images/snow.jpg", caption: '<a href="https://www.freepik.com/free-photo/beautiful-scenery-lot-leafless-trees-snow-covered-land-during-sunset_10990489.htm#query=landscape&position=38&from_view=keyword&track=sph&uuid=16f8afcf-90c6-4cae-8249-a03fef90c6f4">Image by wirestock</a> on Freepik' }
 ];
 
-let picIndex = 0;
 function displayPics() {
-    if (picIndex < images.length) {
-        console.log(images[picIndex]);
-        document.getElementById("pics").innerHTML += `<div><img src="${images[picIndex].src}" alt="Image"><div>${images[picIndex].caption}</div></div>`;
-        picIndex++;
-    }
+    let picsHTML = "";
+    images.forEach(image => {
+        picsHTML += `<div><img src="${image.src}" alt="Image"><div>${image.caption}</div></div>`;
+    });
+    document.getElementById("pics").innerHTML = picsHTML;
 }
-const picId = setInterval(displayPics, 1000);
+
+window.onload = function() {
+    displayPics();
+};
