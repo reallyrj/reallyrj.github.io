@@ -1,0 +1,11 @@
+#center{
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+#mainbody{
+    background-color: black;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
