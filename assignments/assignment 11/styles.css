@@ -15,7 +15,8 @@
 
 
  @media(min-width: 900px){
-.flex{display: flex;}
-.one{flex: 1}
+.tree-list{display: flex;}
+.tree{flex: 1;}
+
 
 }
