@@ -1,0 +1,21 @@
+#center{
+    text-align: center;
+ }
+ .center{
+    text-align: center;
+ }
+ #cypress,#pine,#magnolia,#redbud{
+    background-color: aquamarine;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+ }
+
+
+
+
+ @media(min-width: 900px){
+.flex{display: flex;}
+.one{flex: 1}
+
+}
