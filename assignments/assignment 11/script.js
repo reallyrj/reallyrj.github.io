@@ -12,22 +12,19 @@ class Tree{
     const section=document.createElement("section");
     section.classList.add('tree');  
     
-    
-    
-    const h3=document.createElement("h3");
-    h3.classList.add("center");
-    h3.innerHTML=this.title;
-    section.append(h3);
-
     const columns = document.createElement("section");
     columns.classList.add("columns");
     section.append(columns); 
     
-    const imageSection=document.createElement("section");
-    columns.append(imageSection);
+    const h3=document.createElement("h3");
+    h3.classList.add("center");
+    h3.innerHTML=this.title;
+    columns.append(h3);
+
+   
     const image=document.createElement("img");
     image.src="images/"+this.pic;
-    imageSection.append(image);
+    columns.append(image);
 
     return section;
     }
@@ -83,10 +80,10 @@ trees.push(new Tree("Southern Magnolia","Evergreen","Slow","80-120 years","South
 window.onload=()=>{
 trees.forEach((tree)=>{
     document.getElementById("tree-list").append(tree.section);
+    tree.section.onclick=()=>{
+        console.log("clicked");
+        document.getElementById("tree-list").append(tree.expandedsection)
+    };
 });
 };
 
-document.getElementsByClassName("tree").onclick=()=>{
-    console.log("clicked");
-    document.getElementById("tree-list").append(tree.expandedsection);
-};
