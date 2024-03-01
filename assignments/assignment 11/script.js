@@ -82,8 +82,7 @@ trees.forEach((tree)=>{
     document.getElementById("tree-list").append(tree.section);
     tree.section.onclick=()=>{
         console.log("clicked");
-        document.getElementById("tree-list").append(tree.expandedsection)
-    };
+        document.getElementById("tree-list").append(tree.expandedsection)};
 });
 };
 
