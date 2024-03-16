@@ -1,0 +1,165 @@
+/* This is all just styling and NOT for functionality so can be ignored */
+body {
+    text-align: center;
+  }
+#center {
+    text-align: center;
+  }
+  h1{
+text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+  }
+  
+  #Artist h1,h2,h3{
+    text-align: center;
+  }
+  #Drops h1,h2,h3{
+    text-align: center;
+  }
+  #Favorites h1,h2,h3{
+    text-align: center;
+  }
+
+  #Home h1,h2,h3{
+    text-align: center;
+  }
+  #News h1,h2,h3{
+    text-align: center;
+  }
+
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  #main-nav ul {
+    background-color: red;
+    color: black;
+  }
+  
+  #nav-items li {
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  /* Pay attention to all code below: */
+  /* Hamburger styling/functionality */
+  
+  /* Creates space around hamburger menu */
+  #hamburger {
+    padding: 10px;
+  }
+  
+  /* Creates the actual structure of the hamburger menu */
+  #hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: red;
+    margin: 6px 0;
+  }
+  
+  /* Hide class to be used in JavaScript */
+  .hide {
+    display: none;
+  }
+  
+  @media screen and (min-width: 768px) {
+    /* Hides the hamburger menu on larger resolutions (full screen) */
+    #hamburger {
+      display: none;
+    }
+  
+    /* Everything below this is simply for styling */
+    .flex-container {
+      display: flex;
+    }
+  
+    #main-nav li {
+      flex: 1;
+    }
+  
+    #nav-items {
+      margin: 0;
+      padding: 0;
+      text-align: center;
+      justify-content: space-evenly;
+    }
+  }
+
+#Topics{
+    background: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+#Artist,#Home,#Drops,#Favorites,#News{
+  background-color: black;
+  color: red;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#albumcol{
+background-color: red;
+color:white;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*larger resolutions*/
+@media(min-width: 900px){
+#Upcoming,#MusicVid,#Album,#Thisweek{
+  display: block;
+  justify-content: space-evenly;
+}
+#favs,#Topics,#playlist{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.Topics1{
+  display:flex;
+}
+.Topics2{
+  display: flex;
+}
+.MusicVid{
+  display: flex;
+}
+.Albums{
+  display: flex;
+}
+.ThisWeek{
+  display: flex;
+}
+.favs{
+  display: flex;
+}
+.Upcoming{
+  display: flex;
+}
+.playlist{
+  display: flex;
+}
+.newski{
+  display: flex;
+}
+.one{
+  flex:1;
+}
+.two{
+  flex:2;
+}
+}
