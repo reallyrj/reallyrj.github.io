@@ -3,7 +3,7 @@
        "id":"1",
        "albumimage":"moreinfo1.jpg",
        "albumname":"The Edge",
-       "description":["New jazz","R&B"],
+       "descriptions":["New jazz","R&B"],
        "releasedate":"01/22/1999",
        "producer":"hungryhippo11",
        "certifications":" 2x Gold"
@@ -12,7 +12,7 @@
         "id":"2",
         "albumimage":"moreinfo2.jpeg",
         "albumname":"Twisted Fate",
-        "description":["Punk","Rock"],
+        "descriptions":["Punk","Rock"],
         "releasedate":"09/12/1999",
         "producer":"iamgenisis",
         "certifications":"Platinum"
@@ -21,7 +21,7 @@
         "id":"3",
         "albumimage":"moreinfo3.jpeg",
         "albumname":"Wave of creation",
-        "description":["EDM","Synth"],
+        "descriptions":["EDM","Synth"],
         "releasedate":"2/14/2000",
         "producer":"Skrillex",
         "certifications":"3x Platinum"
@@ -30,7 +30,7 @@
         "id":"4",
         "albumimage":"moreinfo4.jpeg",
         "albumname":"Art Display",
-        "description":["Classical","Baroque"],
+        "descriptions":["Classical","Baroque"],
         "releasedate":"7/11/2002",
         "producer":"Beat0_0ven",
         "certifications":"2x Gold"
@@ -39,7 +39,7 @@
         "id":"5",
         "albumimage":"moreinfo5.jpeg",
         "albumname":"Eye in the sky",
-        "description":["Ethereal","Gospel"],
+        "descriptions":["Ethereal","Gospel"],
         "releasedate":"12/25/2003",
         "producer":"theONEabove",
         "certifications":"10x Platinum"
@@ -48,7 +48,7 @@
         "id":"6",
         "albumimage":"moreinfo6.jpeg",
         "albumname":"Sativa",
-        "description":["Trippy","Vegetation"],
+        "descriptions":["Trippy","Vegetation"],
         "releasedate":"01/01/2006",
         "producer":"",
         "certifications":"3x Diamond"
@@ -57,7 +57,7 @@
         "id":"7",
         "albumimage":"moreinfo7.jpg",
         "albumname":"likeclockwork",
-        "description":["tick","tock"],
+        "descriptions":["tick","tock"],
         "releasedate":"09/09/2009",
         "producer":"tictactoecucko",
         "certifications":"2x Gold"
@@ -66,7 +66,7 @@
         "id":"8",
         "albumimage":"moreinfo8.jpeg",
         "albumname":"lifes been a trip",
-        "description":["Memoir","Dark"],
+        "descriptions":["Memoir","Dark"],
         "releasedate":"12/12/2011",
         "producer":"HEHImSElF",
         "certifications":"9x Diamond"
