@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <Title>Underground Wiki</Title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head> 
+<body id="Submissions">
+    <h1 id="center">Underground Wiki</h1>
+    <nav id="main-nav">
+        <div id="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <ul id="nav-items" class="flex-container hide">
+            <a href="index.html"><li job="nav">Home</li></a>
+            <a href="drops.html"><li>Drops</li></a>
+            <a href="artist.html"><li>Upcoming Artist</li></a>
+            <a href="favorites.html"><li>Favorites</li></a>
+            <a href="news.html"><li>News</li></a>
+            <a href="contact.html"><li>Contact Us</li></a>
+            <a href="submissions.html"><li>Submissions</li></a>
+        </ul>
+    </nav>
+    <header>
+        <h1>Submissions<a href="#" id="add-link">+</a></h1>
+    </header>
+    <div id="submission-list" class="columns"></div>
+    
+        <!-- The Modal -->
+      <div id="dialog" class="w3-modal">
+        <div class="w3-modal-content">
+          <div class="w3-container">
+            <span onclick="document.getElementById('dialog').style.display='none'""
+            class="w3-button w3-display-topright">&times;</span>
+              <section id="dialog-details">
+                <form id="submission-form" method="post" class="hidden">
+                    <input type="hidden" id="_id" name="_id">
+                    <p>
+                        <label for="name ">submission Name:</label>
+                        <input type="text" id="name" name="name" required />
+                    </p>
+                    <p>
+                        <label for="description">Description:</label>
+                        <input type="text" id="description" name="description" required />
+                    </p>
+        
+                    <section class="columns">
+                        <p id="img-prev-section">
+                            <img id="img-prev">
+                        </p>
+                        <p>
+                            <label for="img">Upload Image:</label>
+                            <input type="file" id="img" name="img" accept="image/*" />
+                        </p>
+                    </section>
+        
+                    <p id="songs-p ">
+                        <label class="inline">Songs:</label>
+                        <a href="#" id="add-song">Add song</a>
+                        <section id="song-boxes"></section>
+                    </p>
+                    <p>
+                        <button type="submit">Submit</button>
+                    </p>
+                </form>
+
+                <section id="submission-details" class="hidden">
+
+                </section>
+            </section>
+          </div>
+        </div>
+      </div>   
+    </div>
+    <script src="script.js"></script>
+    <script src="submissions.js"></script>
+</body>
+</html>
