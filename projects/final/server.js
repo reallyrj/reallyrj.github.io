@@ -60,11 +60,21 @@ app.get("/news.html", (req, res) => {
 app.get("/contact.html", (req, res) => {
     res.sendFile(__dirname + "/contact.html");
   });
-  app.get("/submissions.html", (req, res) => {
+app.get("/submissions.html", (req, res) => {
     res.sendFile(__dirname + "/submissions.html");
   });
-
-
+app.get("/information.html", (req, res) => {
+    res.sendFile(__dirname + "/information.html");
+  });
+app.get("/information2.html", (req, res) => {
+    res.sendFile(__dirname + "/information2.html");
+  });
+app.get("/information3.html", (req, res) => {
+    res.sendFile(__dirname + "/information3.html");
+  });
+app.get("/information4.html", (req, res) => {
+    res.sendFile(__dirname + "/information4.html");
+  });
 
 
   app.get("/api/submissions", (req, res) => {
