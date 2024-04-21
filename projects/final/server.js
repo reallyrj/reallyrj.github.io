@@ -42,6 +42,30 @@ const Submission=mongoose.model("Submission",submissionSchema);
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/index.html");
   });
+app.get("/index.html", (req, res) => {
+    res.sendFile(__dirname + "/index.html");
+  });
+app.get("/drops.html", (req, res) => {
+    res.sendFile(__dirname + "/drops.html");
+  });
+app.get("/artist.html", (req, res) => {
+    res.sendFile(__dirname + "/artist.html");
+  });
+app.get("/favorites.html", (req, res) => {
+    res.sendFile(__dirname + "/favorites.html");
+  });
+app.get("/news.html", (req, res) => {
+    res.sendFile(__dirname + "/news.html");
+  });
+app.get("/contact.html", (req, res) => {
+    res.sendFile(__dirname + "/contact.html");
+  });
+  app.get("/submissions.html", (req, res) => {
+    res.sendFile(__dirname + "/submissions.html");
+  });
+
+
+
 
   app.get("/api/submissions", (req, res) => {
     getSubmissions(res);
